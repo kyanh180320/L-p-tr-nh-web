@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>A Simple Form</title>
+  </head>
+
+  <body>
+    <form action="http://localhost:3000/ex2.9.php" method="POST">
+      <br />
+      Email
+      <br />
+      <input type="text" name="email" required />
+      <br />
+      <br />
+      Name
+      <br />
+      <input type="text" name="name" required />
+      <br />
+      <br />
+      Class
+      <br />
+      <input type="text" name="class" required />
+      <br />
+      <br />
+      University
+      <br />
+      <input type="text" name="university" required />
+      <br />
+      <br />
+      Hobby
+      <br />
+      <input type="checkbox" name="hobbies[]" value="reading" />
+      Reading
+      <br />
+      <input type="checkbox" name="hobbies[]" value="eating" /> Eating
+      <br />
+      <input type="checkbox" name="hobbies[]" value="sleeping" />
+      Sleeping
+      <br />
+      <input type="checkbox" name="hobbies[]" value="coding" /> Coding
+      <br />
+      <input type="checkbox" name="hobbies[]" value="other" /> Other
+      <br />
+      <br />
+      Introduction
+      <br />
+      <textarea name="introduction" cols="30" rows="10"></textarea>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
